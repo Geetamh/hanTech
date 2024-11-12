@@ -1,0 +1,193 @@
+
+
+.btn{
+    background-color: coral;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: 190px;
+    color: white;
+}
+.btn1{
+        background-color: rgb(226, 63, 4);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    /* margin-left: 800px; */
+    color: white;
+    margin-top: 20px;
+}
+.circle{
+font-size: 30px;
+    height: 100px;
+    width: 100px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    /* background: yellow; */
+    border: 4px solid rgb(226, 63, 4);
+}
+.quote{
+    margin-left: 800px;
+    margin-top: 20px;
+}
+.offers{
+    margin-left: 50px;
+    margin-top: 140px;
+    text-align:center;
+    margin-right: 50px;
+    font-weight: lighter;
+    background-color: #28283f !important;
+    width: 93%;
+    color: white;
+}
+.mobile{
+  width: 350px;
+  font-weight: lighter;
+  margin-left: 90px;
+  color: white;
+}
+.icons{
+  display: flex;
+margin-left: -80px;
+font-weight: lighter;
+margin-top: 30px;
+/* background-color: burlywood; */
+}
+.heading{
+  font-size: 20px;
+}
+
+.container {
+    display: grid;
+    margin-left: 300px;
+    /* align-items: center;
+    justify-content: center */
+    /* margin-top: 400px; */
+  }
+  
+  .img {
+    max-width: 100%;
+    height:700px;
+    margin-left: 440px;
+    width: 590px;
+    padding-top: 120px;
+    transition:ease-in-out;
+    
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 200px;
+    margin-top: -500px;
+  }
+  #apps{
+    margin-left: 190px;
+  }
+  #apps>img{
+    background-color:whitesmoke;
+    padding: 50px;
+    /* row-gap: 10px; */
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  #section3{
+    display: grid;
+    /* margin-left: 300px; */
+  }
+  .img1 {
+    max-width: 100%;
+    height:700px;
+    margin-left: 540px;
+    /* width: 590px; */
+    width: 50%;
+    height: 80px;
+    margin-top: -500px;
+
+    
+  }
+  
+  .text1 {
+    width: 30%;
+    font-size: 20px;
+    padding-left: 100px;
+    margin-top: 300px;
+    line-height: 40px;
+  }
+  .development > h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px; 
+  }
+  .development > h3{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px; 
+    width: 50%;
+    margin-left: 330px;
+    font-weight: lighter;
+  }
+  .DevImage{
+    width: 340px;
+    height: 500px;
+    margin-left: 490px;
+  }
+  .text3,.text4{
+    margin-top: 10px;
+    margin-left: 90px;
+    width: 350px;
+    font-weight: lighter;
+  }
+  .roadmap{
+    margin-left: 100px;
+    margin-top: -600px;
+    width: 60px;
+  }
+  .roadmap2{
+    margin-left: 100px;
+    margin-top: -600px;
+    width: 60px;
+    margin-left: 320px;
+  }
+  .para1{
+    margin-left: 800px;
+    margin-top: -420px;
+  }
+  .para2{
+    margin-left: 800px;
+    margin-top: 90px;
+    
+  }
+  .para3{
+    margin-left: 35px;
+    margin-top: -400px;
+  }
+  .para4{
+    margin-left: 35px;
+    margin-top: -20px;
+  }
+  .roadmap1{
+    width: 70px;
+    margin-left:150px;
+  }
+  .caseImage{
+    text-align:left;
+    margin-left: 120px;
+    width: 100px;
+    height: 200px;
+    transform: rotate(25deg);
+    -webkit-text-size-adjust: 100%;
+    vertical-align: baseline;
+  }
+  .caseStudies{
+    margin-top: 90px;
+  }
+  .caseText{
+    text-align: center;
+    margin-left: 600px;
+    width: 50%;
+  }
+  .caseTag{
+    display: grid;
+  }

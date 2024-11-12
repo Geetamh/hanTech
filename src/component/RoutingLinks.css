@@ -1,0 +1,31 @@
+.links{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+    display: inline;
+    float: right;
+    /* position: fixed; */
+
+}
+.link1{
+    font-size: 20px;
+    margin-right: 50px;
+    display: inline;
+    float: right;
+    border: 2px solid red;
+    color: red;
+    margin-top: -1px;
+    padding: 2px;
+}
+li{
+    list-style-type: none;
+    position: sticky;
+}
+.heade{
+    position:fixed;
+    left: 0;
+    right: 0;
+    background-color: beige;
+    height: 100px;
+
+}

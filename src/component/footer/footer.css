@@ -1,0 +1,14 @@
+.copyRight{
+    width:100%;
+    margin-top: 450px;
+    background-color:rgb(59, 52, 52);
+    color: aliceblue;
+}
+.copyRight > h4{
+    margin-left: 90px;
+    height: 40px;
+    padding-top: 20px;
+}
+#facebook{
+    color: red;
+}
