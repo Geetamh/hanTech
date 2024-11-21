@@ -8,6 +8,7 @@ import Home from './component/home/Home';
 import AboutUs from './component/aboutUs/AboutUs';
 import ContactUs from './component/contactUs/ContactUs';
 import Services from './component/services/Services';
+import Saas from './component/services/SAAS/Saas';
 
 
 function App() {
@@ -17,9 +18,13 @@ function App() {
        <Routinglinks/>
        <Routes>
         <Route path ="/" element ={ <Home /> } /> 
-        <Route path ="/services" element = {<Services /> }/>
+        <Route>
+        <Route path ="/services" element = {<Services />}/>
+        <Route path ="/services/saas" element = {<Saas />}/>
+
+        </Route>
         <Route path ="/aboutUs" element = {<AboutUs /> } />
-        <Route path ="/ContactUs" element = {<ContactUs /> } />
+        <Route path ="/contactUs" element = {<ContactUs /> } />
        </Routes>
        </BrowserRouter>
        <Footer/>
